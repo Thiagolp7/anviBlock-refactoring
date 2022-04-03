@@ -16,10 +16,48 @@
   --text-color: var(--black);
   --text-color-hl: var(--white);
 
-  --bg-color: var(var(--purple-400));
-  --bg-card: var(var(--pink-200));
-  --bg-card-hl: var(var(--blue-900));
-  --bg-button: var(var(--white));
-  --bg-button-hl: var(var(--pink-400));
-  --bg-footer: var(var(--blue-800));
+  --bg-color: var(--purple-400);
+  --bg-card: var(--pink-200);
+  --bg-card-hl: var(--blue-900);
+  --bg-button: var(--white);
+  --bg-button-hl: var(--pink-400);
+  --bg-footer: var(--blue-800);
+
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  height: 100%;
+}
+
+.pricing {
+  margin: 0 auto;
+}
+
+.pricing .container .card img {
+  width: 150px;
+  height: 160px;
+}
+
+.pricing .container {
+  display: flex;
+  background-color: var(--bg-card);
+}
+
+footer {
+  width: 100%;
+  color: var(--text-color-hl);
+  background-color: var(--bg-footer);
+  text-align: center;
+  align-self: flex-end;
+  padding: 1rem 0;
 }
