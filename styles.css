@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink-200: #f7e2e2;
+  --pink-400: #ff1d89;
+  --purple-400: #e3d7fd;
+  --blue-800: #160547;
+  --blue-900: #0b0641;
+  --white: #ffffff;
+  --black: #000000;
+
+  --text-color: var(--black);
+  --text-color-hl: var(--white);
+
+  --bg-color: var(var(--purple-400));
+  --bg-card: var(var(--pink-200));
+  --bg-card-hl: var(var(--blue-900));
+  --bg-button: var(var(--white));
+  --bg-button-hl: var(var(--pink-400));
+  --bg-footer: var(var(--blue-800));
+}
